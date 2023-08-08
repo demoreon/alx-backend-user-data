@@ -32,7 +32,7 @@ class Auth():
         return True
 
     def authorization_header(self, request=None) -> str:
-        """ Request Flask object """
+        """ Request Flask authorization header """
         if request is None or 'Authorization' not in request.headers:
             return None
         return request.headers.get('Authorization')
