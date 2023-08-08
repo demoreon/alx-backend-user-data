@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Manage API authentication system
+This manages the authentication system
 """
 from flask import request
 from typing import List, TypeVar
